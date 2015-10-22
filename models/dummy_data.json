@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "name":"Natasha W.",
+    "title":"Director of Production",
+    "image":"picture_00.png"
+  },
+  {
+    "id": "02",
+    "name":"Duco M.",
+    "title":"Head of Creative Services",
+    "image":"picture_01.png"
+  },
+  {
+    "id": "03",
+    "name":"Chris W.",
+    "title":"Design Director",
+    "image":"picture_02.png"
+  },
+  {
+    "id": "04",
+    "name":"Chianne P.",
+    "title":"Digital Producer",
+    "image":"picture_01.png"
+  },
+  {
+    "id": "05",
+    "name":"Francis A.",
+    "title":"IT",
+    "image":"picture_00.png"
+  }
+]
