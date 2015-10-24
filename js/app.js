@@ -1,24 +1,30 @@
-// MAIN APP
+// MAIN APP DEFINITION
+
+
+//non ASYNC
 
 var request = new XMLHttpRequest();
 request.open('GET', 'models/dummy_data.json', true);
 request.setRequestHeader('Content-Type', 'application/json');
-
 request.onreadystatechange = function() {
-  console.log(this.readyState);
+  console.log(request.readyState);
   
-  if(this.readyState == 4) {
+  if(request.readyState === 4) {
     console.log('data ready');
-    console.log(this);
     
     var data = JSON.parse(request.responseText);
     
-    populate_people(data);
+    populate_people(data)
   }
 };
 
 request.send();
 
+//extra functions
 function populate_people(data) {
+  // add here 
   console.log(data);
 }
+
+
+
